@@ -8,8 +8,6 @@ import {
     Activity,
     ArrowRight,
     Download,
-    BarChart2,
-    PieChart,
     Repeat,
     Users
 } from "lucide-react";
@@ -61,12 +59,6 @@ const Portfolio: React.FC = () => {
             image: "https://images.unsplash.com/photo-1556906781-9a412961d289?w=800&q=80",
             type: "Merch"
         }
-    ];
-
-    const reports = [
-        { title: "Client 1", subtitle: "Marketplace Sales Growth", icon: BarChart2 },
-        { title: "Client 2", subtitle: "Sales Momentum Dashboard", icon: TrendingUp },
-        { title: "Client 3", subtitle: "Revenue Performance", icon: PieChart }
     ];
 
     return (
@@ -198,36 +190,6 @@ const Portfolio: React.FC = () => {
                                     <Button variant="outline" size="sm" className="w-full mt-auto">
                                         <Download className="w-4 h-4 mr-2" /> Download Sample
                                     </Button>
-                                </div>
-                            </GlassCard>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Client Reports */}
-            <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white/5">
-                <div className="max-w-5xl mx-auto">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-foreground mb-4">Client Sales & Traffic Report</h2>
-                        <p className="text-muted-foreground">Marketplace performance insights showcasing sales momentum and audience engagement.</p>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {reports.map((report, i) => (
-                            <GlassCard key={i} className="p-6 text-center hover:bg-white/10 transition-colors">
-                                <div className="w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 mx-auto flex items-center justify-center mb-4">
-                                    <report.icon className="w-6 h-6" />
-                                </div>
-                                <h3 className="text-lg font-bold text-white mb-1">{report.title}</h3>
-                                <p className="text-sm text-gray-400 mb-4">{report.subtitle}</p>
-                                <div className="h-24 bg-white/5 rounded-lg mb-4 flex items-end justify-center pb-2 gap-1 px-4">
-                                    {/* Fake mini bars */}
-                                    <div className="w-2 bg-blue-500/50 h-[30%] rounded-t"></div>
-                                    <div className="w-2 bg-blue-500/50 h-[50%] rounded-t"></div>
-                                    <div className="w-2 bg-blue-500/50 h-[40%] rounded-t"></div>
-                                    <div className="w-2 bg-blue-500/50 h-[70%] rounded-t"></div>
-                                    <div className="w-2 bg-blue-500/50 h-[60%] rounded-t"></div>
-                                    <div className="w-2 bg-blue-500/50 h-[80%] rounded-t"></div>
                                 </div>
                             </GlassCard>
                         ))}
