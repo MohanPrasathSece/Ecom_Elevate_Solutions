@@ -144,7 +144,7 @@ const Contact: React.FC = () => {
                     <Mail className="w-5 h-5 text-blue-400 mt-1 mr-3" />
                     <div>
                       <p className="text-sm text-gray-400">Email</p>
-                      <p className="text-white font-medium">adnan@amzcoz.com</p>
+                      <p className="text-white font-medium">shaikhaman66@gmail.com</p>
                     </div>
                   </div>
 
@@ -152,7 +152,7 @@ const Contact: React.FC = () => {
                     <MapPin className="w-5 h-5 text-blue-400 mt-1 mr-3" />
                     <div>
                       <p className="text-sm text-gray-400">Location</p>
-                      <p className="text-white font-medium">Pune, Maharashtra<br />India</p>
+                      <p className="text-white font-medium">Ground Floor, 1C, Jama Masjid Lane<br />Takiya ward Lane, Opp Jama Masjid<br />Kurla West, Mumbai - 400070<br />Maharashtra, India</p>
                     </div>
                   </div>
 
@@ -239,9 +239,12 @@ const Contact: React.FC = () => {
                         <SelectValue placeholder="Select a service" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="account-management">Account Management</SelectItem>
-                        <SelectItem value="advertising">Advertising</SelectItem>
-                        <SelectItem value="website">Website Development</SelectItem>
+                        <SelectItem value="ecommerce-management">E-commerce Management</SelectItem>
+                        <SelectItem value="advertising-marketing">Advertising & Marketing</SelectItem>
+                        <SelectItem value="brand-enhancement">Brand Enhancement</SelectItem>
+                        <SelectItem value="website-development">Website Development</SelectItem>
+                        <SelectItem value="ecommerce-website">E-commerce Website</SelectItem>
+                        <SelectItem value="social-media-marketing">Social Media Marketing</SelectItem>
                         <SelectItem value="other">Other</SelectItem>
                       </SelectContent>
                     </Select>
@@ -258,7 +261,10 @@ const Contact: React.FC = () => {
                       <SelectContent>
                         <SelectItem value="amazon">Amazon</SelectItem>
                         <SelectItem value="flipkart">Flipkart</SelectItem>
-                        <SelectItem value="shopify">Shopify</SelectItem>
+                        <SelectItem value="myntra">Myntra</SelectItem>
+                        <SelectItem value="ajio">Ajio</SelectItem>
+                        <SelectItem value="jiomart">Jio Mart</SelectItem>
+                        <SelectItem value="meesho">Meesho</SelectItem>
                         <SelectItem value="other">Other</SelectItem>
                       </SelectContent>
                     </Select>
@@ -277,9 +283,17 @@ const Contact: React.FC = () => {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="electronics">Electronics</SelectItem>
-                      <SelectItem value="fashion">Fashion</SelectItem>
-                      <SelectItem value="beauty">Beauty</SelectItem>
-                      <SelectItem value="home">Home & Kitchen</SelectItem>
+                      <SelectItem value="fashion-apparel">Fashion & Apparel</SelectItem>
+                      <SelectItem value="beauty-personal-care">Beauty & Personal Care</SelectItem>
+                      <SelectItem value="home-kitchen">Home & Kitchen</SelectItem>
+                      <SelectItem value="food-beverages">Food & Beverages</SelectItem>
+                      <SelectItem value="sports-fitness">Sports & Fitness</SelectItem>
+                      <SelectItem value="toys-games">Toys & Games</SelectItem>
+                      <SelectItem value="books-media">Books & Media</SelectItem>
+                      <SelectItem value="automotive">Automotive</SelectItem>
+                      <SelectItem value="healthcare">Healthcare</SelectItem>
+                      <SelectItem value="pet-supplies">Pet Supplies</SelectItem>
+                      <SelectItem value="office-products">Office Products</SelectItem>
                       <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
@@ -301,7 +315,7 @@ const Contact: React.FC = () => {
 
             {/* Why Choose Section */}
             <div className="mt-12">
-              <h2 className="text-2xl font-bold text-white mb-8">Why Choose Ecom elevate solution?</h2>
+              <h2 className="text-2xl font-bold text-white mb-8">Why Choose Ecomm Elevate Solutions?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {[
                   { title: "Proven Track Record", desc: "15 successful clients with an average 3x ROAS uplift" },

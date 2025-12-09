@@ -88,7 +88,7 @@ const About: React.FC = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-blue-500/20 blur-[100px] rounded-full"></div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">
-            About Ecom elevate solution
+            About Ecomm Elevate Solutions
           </h1>
           <p className="text-xl sm:text-2xl text-blue-100 font-medium">
             Your trusted partner for <span className="text-white">Amazon growth</span> and <span className="text-white">e-commerce success</span>
@@ -167,7 +167,7 @@ const About: React.FC = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 text-left">
           {/* Why Choose */}
           <div>
-            <h2 className="text-3xl font-bold text-foreground mb-6">Why Choose Ecom elevate solution?</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">Why Choose Ecomm Elevate Solutions?</h2>
             <p className="text-lg text-muted-foreground mb-8">
               We're not just another Amazon agency. We're your growth partners, committed to your success with proven strategies and transparent practices.
             </p>
@@ -201,7 +201,7 @@ const About: React.FC = () => {
 
             <GlassCard className="p-6 text-center bg-blue-600/10 border-blue-500/20">
               <h3 className="text-xl font-bold text-white mb-2">GST Registration Details</h3>
-              <p className="text-blue-200">GSTIN: 27BRBPT9292A1ZJ</p>
+              <p className="text-blue-200">GSTIN: 27BDKPS0531A1ZW</p>
               <p className="text-xs text-blue-300/80 mt-1">Registered under Goods and Services Tax, Government of India.</p>
             </GlassCard>
           </div>

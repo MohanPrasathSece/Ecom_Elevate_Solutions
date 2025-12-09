@@ -78,7 +78,7 @@ app.post('/api/send-email', async (req, res) => {
           </div>
 
           <div style="background-color: #f8f9fa; padding: 15px; text-align: center; border-top: 1px solid #eee;">
-            <p style="margin: 0; color: #999; font-size: 12px;">Sent from Ecom elevate solution Website</p>
+            <p style="margin: 0; color: #999; font-size: 12px;">Sent from Ecomm Elevate Solutions Website</p>
           </div>
         </div>
       `,
@@ -91,9 +91,9 @@ app.post('/api/send-email', async (req, res) => {
 
     // Send confirmation email to the user
     const confirmationOptions = {
-      from: `"Ecom elevate solution" <${process.env.SMTP_USER}>`,
+      from: `"Ecomm Elevate Solutions" <${process.env.SMTP_USER}>`,
       to: validatedData.email,
-      subject: 'Thank you for contacting Ecom elevate solution',
+      subject: 'Thank you for contacting Ecomm Elevate Solutions',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333; text-align: center;">Thank You!</h2>
@@ -107,7 +107,7 @@ app.post('/api/send-email', async (req, res) => {
             </div>
           </div>
           <div style="text-align: center; margin-top: 30px;">
-            <p style="color: #6c757d;">Best regards,<br>The Ecom elevate solution Team</p>
+            <p style="color: #6c757d;">Best regards,<br>The Ecomm Elevate Solutions Team</p>
           </div>
         </div>
       `,

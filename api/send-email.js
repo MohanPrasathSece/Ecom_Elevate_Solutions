@@ -1,5 +1,9 @@
 import nodemailer from 'nodemailer';
 import { z } from 'zod';
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
 
 // Email validation schema
 const emailSchema = z.object({
@@ -57,7 +61,7 @@ export default async function handler(req, res) {
             <p style="line-height: 1.6; color: #6c757d;">${validatedData.message}</p>
           </div>
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #dee2e6; text-align: center; color: #6c757d; font-size: 12px;">
-            <p>This email was sent from the Ecom elevate solution contact form</p>
+            <p>This email was sent from the Ecomm Elevate Solutions contact form</p>
           </div>
         </div>
       `,
@@ -68,9 +72,9 @@ export default async function handler(req, res) {
 
     // Send confirmation email to the user
     const confirmationOptions = {
-      from: `"Ecom elevate solution" <${process.env.SMTP_USER}>`,
+      from: `"Ecomm Elevate Solutions" <${process.env.SMTP_USER}>`,
       to: validatedData.email,
-      subject: 'Thank you for contacting Ecom elevate solution',
+      subject: 'Thank you for contacting Ecomm Elevate Solutions',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333; text-align: center;">Thank You!</h2>
@@ -84,7 +88,7 @@ export default async function handler(req, res) {
             </div>
           </div>
           <div style="text-align: center; margin-top: 30px;">
-            <p style="color: #6c757d;">Best regards,<br>The Ecom elevate solution Team</p>
+            <p style="color: #6c757d;">Best regards,<br>The Ecomm Elevate Solutions Team</p>
           </div>
         </div>
       `,

@@ -55,7 +55,7 @@ const Home: React.FC = () => {
 
   const testimonials = [
     {
-      content: "Ecom elevate solution transformed our e-commerce presence across Amazon and Flipkart. Within 60 days, we saw 3x growth in organic sales and significantly improved our ad ROAS.",
+      content: "Ecomm Elevate Solutions transformed our e-commerce presence across Amazon and Flipkart. Within 60 days, we saw 3x growth in organic sales and significantly improved our ad ROAS.",
       author: "Rajesh Kumar",
       role: "Electronics Business"
     },
@@ -65,7 +65,7 @@ const Home: React.FC = () => {
       role: "Fashion & Apparel"
     },
     {
-      content: "Professional, transparent, and results-driven. Ecom elevate solution handles everything from listings to ads across Amazon, Myntra, and Meesho, allowing us to focus on product development.",
+      content: "Professional, transparent, and results-driven. Ecomm Elevate Solutions handles everything from listings to ads across Amazon, Myntra, and Meesho, allowing us to focus on product development.",
       author: "Michael Chen",
       role: "Home & Kitchen"
     }

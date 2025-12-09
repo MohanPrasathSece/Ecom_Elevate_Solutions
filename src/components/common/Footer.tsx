@@ -26,9 +26,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Column */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold text-white tracking-tight">Ecom elevate solution</h2>
+            <h2 className="text-2xl font-bold text-white tracking-tight">Ecomm Elevate Solutions</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Expert Amazon account management, advertising, and e-commerce growth services. Helping businesses scale with data-driven strategies.
+              Ground Floor, 1C, Jama Masjid Lane, Takiya ward Lane, Opp Jama Masjid, Kurla West, Mumbai, Mumbai Suburban, Maharashtra, 400070
             </p>
           </div>
 
@@ -76,11 +76,11 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <span className="font-medium text-foreground mr-2">Email:</span>
-                adnan@amzcoz.com
+                shaikhaman66@gmail.com
               </li>
               <li className="flex items-start">
                 <span className="font-medium text-foreground mr-2">Location:</span>
-                Pune, Maharashtra
+                Ground Floor, 1C, Jama Masjid Lane, Takiya ward Lane, Opp Jama Masjid, Kurla West, Mumbai - 400070, Maharashtra
               </li>
             </ul>
           </div>
@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
 
         <div className="pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {currentYear} Ecom elevate solution. All rights reserved.
+            © {currentYear} Ecomm Elevate Solutions. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-xs text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>

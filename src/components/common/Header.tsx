@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center group z-50 relative" style={{ fontFamily: 'Poppins, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>
             <img
               src="/images/logo/Gemini_Generated_Image_sss5a4sss5a4sss5-removebg-preview.png"
-              alt="Ecom elevate solution Logo"
+              alt="Ecomm Elevate Solutions Logo"
               className="h-16 sm:h-18 w-auto object-contain"
             />
           </Link>
