@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
     },
     {
       question: "Do you work with new sellers?",
-      answer: "Yes! We work with businesses at all stages, from launch to established brands looking to scale."
+      answer: "Yes! We work with businesses at all stages, from launch to established businesses looking to scale."
     },
     {
       question: "What are your pricing models?",

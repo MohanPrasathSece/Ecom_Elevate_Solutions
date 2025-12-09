@@ -55,14 +55,14 @@ const Services: React.FC = () => {
     },
     {
       icon: Palette,
-      title: "A+ Content & Brand Store",
-      description: "Premium visual content that enhances your brand presence and boosts conversions.",
+      title: "A+ Content & Business Store",
+      description: "Premium visual content that enhances your business presence and boosts conversions.",
       features: [
         "Basic A+ Content (7-8 templates)",
         "Premium A+ Content (5-6 templates)",
-        "Custom Brand-Aligned Creatives",
+        "Custom Business-Aligned Creatives",
         "Text + Visual Optimization",
-        "Brand Story Development",
+        "Business Story Development",
         "Fully Optimized Storefront",
         "Mobile-Responsive Design",
         "Conversion-Focused Layout"
@@ -71,7 +71,7 @@ const Services: React.FC = () => {
     {
       icon: Star,
       title: "Review & Reputation Management",
-      description: "Protect and enhance your brand reputation with proactive review management.",
+      description: "Protect and enhance your business reputation with proactive review management.",
       features: [
         "Review Monitoring",
         "Response Management",
@@ -98,20 +98,20 @@ const Services: React.FC = () => {
     {
       icon: Share2,
       title: "Social Media & Meta Ads",
-      description: "Build brand awareness and drive sales through strategic social media marketing.",
+      description: "Build business awareness and drive sales through strategic social media marketing.",
       features: [
         "Facebook & Instagram Ads",
         "Social Media Content Creation",
         "Community Management",
         "Audience Targeting",
         "Campaign Analytics",
-        "Brand Building Strategies"
+        "Business Building Strategies"
       ]
     },
     {
       icon: Monitor,
       title: "Website Development",
-      description: "Corporate and marketing websites crafted for brand storytelling, speed, and responsive experiences.",
+      description: "Corporate and marketing websites crafted for business storytelling, speed, and responsive experiences.",
       features: [
         "Corporate & Portfolio Websites",
         "Custom UI/UX Design Systems",
@@ -168,7 +168,7 @@ const Services: React.FC = () => {
     {
       icon: Smartphone,
       title: "FMCG Marketing",
-      description: "Retail-ready strategies for FMCG brands across marketplaces and paid channels.",
+      description: "Retail-ready strategies for FMCG businesses across marketplaces and paid channels.",
       features: [
         "Category Strategy",
         "Promo & Pricing Playbooks",

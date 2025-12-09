@@ -18,7 +18,7 @@ const About: React.FC = () => {
   const missionVision = [
     {
       title: "Our Mission",
-      description: "To empower businesses of all sizes to achieve exceptional growth on Amazon through data-driven strategies, expert management, and unwavering commitment to client success. We believe every brand deserves the opportunity to thrive in the competitive e-commerce landscape.",
+      description: "To empower businesses of all sizes to achieve exceptional growth on Amazon through data-driven strategies, expert management, and unwavering commitment to client success. We believe every business deserves the opportunity to thrive in the competitive e-commerce landscape.",
       icon: Target
     },
     {
@@ -29,7 +29,7 @@ const About: React.FC = () => {
   ];
 
   const achievements = [
-    { label: "Brands", value: "15+" },
+    { label: "Clients", value: "15+" },
     { label: "ROAS", value: "2x" },
     { label: "Years Experience", value: "5+" },
     { label: "Client Satisfaction", value: "98%" }

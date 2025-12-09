@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
   const serviceLinks = [
     "Amazon Account Management",
     "Amazon Advertising",
-    "Brand Store & A+ Content",
+    "Business Store & A+ Content",
     "Review Management",
     "Webapp Development",
     "Social Media Marketing"
@@ -24,11 +24,11 @@ const Footer: React.FC = () => {
     <footer className="bg-background/10 border-t border-border/60 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-          {/* Brand Column */}
+          {/* Company Column */}
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-white tracking-tight">Ecom elevate solution</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Expert Amazon account management, advertising, and e-commerce growth services. Helping brands scale with data-driven strategies.
+              Expert Amazon account management, advertising, and e-commerce growth services. Helping businesses scale with data-driven strategies.
             </p>
           </div>
 

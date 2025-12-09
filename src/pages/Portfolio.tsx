@@ -15,10 +15,10 @@ import {
 } from "lucide-react";
 
 const Portfolio: React.FC = () => {
-    const brands = [
-        "Akai", "Filgap", "GoFresh", "Korleone", "Lal Gulab",
-        "Magic Paints", "Saukhyam", "Wit Blox", "Innovative Edge",
-        "Real Nutri Co", "Tresa", "Veg O Vegan", "Zora"
+    const clientCategories = [
+        "Fashion & Apparel", "Electronics", "Home & Kitchen", "Beauty & Wellness",
+        "Food & Beverages", "Sports & Fitness", "Books & Media", "Toys & Games",
+        "Automotive", "Healthcare", "Pet Supplies", "Office Products"
     ];
 
     const growthVelocity = [
@@ -45,7 +45,7 @@ const Portfolio: React.FC = () => {
     const samples = [
         {
             title: "Amazon Infographics",
-            description: "Professional infographics designed for Amazon product listings and brand storytelling",
+            description: "Professional infographics designed for Amazon product listings and business storytelling",
             image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&q=80",
             type: "Design"
         },
@@ -57,7 +57,7 @@ const Portfolio: React.FC = () => {
         },
         {
             title: "Hoodie Graphics Design",
-            description: "Custom hoodie and apparel graphics that make your brand stand out",
+            description: "Custom hoodie and apparel graphics that make your business stand out",
             image: "https://images.unsplash.com/photo-1556906781-9a412961d289?w=800&q=80",
             type: "Merch"
         }
@@ -79,22 +79,22 @@ const Portfolio: React.FC = () => {
                         Our Portfolio
                     </h1>
                     <p className="text-xl text-blue-100">
-                        Trusted by leading brands across India to <span className="text-white font-semibold">scale their e-commerce presence</span>.
+                        Trusted by leading businesses across India to <span className="text-white font-semibold">scale their e-commerce presence</span>.
                     </p>
                 </div>
             </section>
 
-            {/* Brands We Work With */}
+            {/* Client Categories */}
             <section className="py-20 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-foreground mb-4">Brands We Work With</h2>
-                        <p className="text-muted-foreground">Partnering with innovative companies to drive marketplace success</p>
+                        <h2 className="text-3xl font-bold text-foreground mb-4">Client Categories We Serve</h2>
+                        <p className="text-muted-foreground">Partnering with diverse businesses across multiple industries</p>
                     </div>
                     <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
-                        {brands.map((brand, i) => (
+                        {clientCategories.map((category, i) => (
                             <div key={i} className="px-6 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium hover:bg-white/10 transition-colors cursor-default">
-                                {brand}
+                                {category}
                             </div>
                         ))}
                     </div>
@@ -151,10 +151,10 @@ const Portfolio: React.FC = () => {
                             </div>
                         </GlassCard>
 
-                        {/* Brand Experience */}
+                        {/* Customer Experience */}
                         <GlassCard className="p-6">
                             <div className="flex items-center justify-between mb-6">
-                                <h3 className="text-xl font-bold text-white">Brand Experience</h3>
+                                <h3 className="text-xl font-bold text-white">Customer Experience</h3>
                                 <Repeat className="w-5 h-5 text-purple-400" />
                             </div>
                             <div className="space-y-4">
@@ -266,7 +266,7 @@ const Portfolio: React.FC = () => {
                             <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center text-blue-400 mb-6">
                                 <Users className="w-5 h-5" />
                             </div>
-                            <h3 className="text-xl font-bold text-white mb-3">Brand Accelerator Pods</h3>
+                            <h3 className="text-xl font-bold text-white mb-3">Business Accelerator Pods</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
                                 Dedicated pods comprised of performance marketers, creatives, content, and Ops working in agile sprints.
                             </p>

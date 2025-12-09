@@ -29,14 +29,14 @@ const Home: React.FC = () => {
     },
     {
       icon: Palette,
-      title: "Brand Enhancement",
-      description: "A+ Content, Brand Store setup, and creative infographics to boost conversions.",
-      features: ["A+ Content", "Brand Store", "Premium Templates", "Brand Story"]
+      title: "Business Enhancement",
+      description: "A+ Content, Business Store setup, and creative infographics to boost conversions.",
+      features: ["A+ Content", "Business Store", "Premium Templates", "Business Story"]
     },
     {
       icon: Monitor,
       title: "Website Development",
-      description: "Corporate and marketing websites crafted for brand storytelling, speed, and responsive experiences.",
+      description: "Corporate and marketing websites crafted for business storytelling, speed, and responsive experiences.",
       features: ["Corporate Websites", "Custom UI/UX", "CMS Integrations", "SEO Enhancements"]
     },
     {
@@ -57,10 +57,10 @@ const Home: React.FC = () => {
     {
       content: "Ecom elevate solution transformed our e-commerce presence across Amazon and Flipkart. Within 60 days, we saw 3x growth in organic sales and significantly improved our ad ROAS.",
       author: "Rajesh Kumar",
-      role: "Electronics Brand"
+      role: "Electronics Business"
     },
     {
-      content: "Their expertise in e-commerce advertising across multiple platforms is unmatched. Our advertising campaigns are now profitable and our brand visibility has skyrocketed.",
+      content: "Their expertise in e-commerce advertising across multiple platforms is unmatched. Our advertising campaigns are now profitable and our business visibility has skyrocketed.",
       author: "Priya Sharma",
       role: "Fashion & Apparel"
     },
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
             </span>
           </h1>
           <p className="text-base md:text-xl text-blue-100 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Helping brands scale with data-driven strategies. Expert account management, advertising, and e-commerce growth services.
+            Helping businesses scale with data-driven strategies. Expert account management, advertising, and e-commerce growth services.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-3 md:gap-4 justify-center w-full mb-16">
