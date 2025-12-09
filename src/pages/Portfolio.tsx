@@ -72,7 +72,7 @@ const Portfolio: React.FC = () => {
     return (
         <div className="min-h-screen pt-20">
             {/* Hero Section */}
-            <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/50 relative overflow-hidden text-center min-h-[40vh] flex flex-col justify-center">
+            <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/15 relative overflow-hidden text-center min-h-[40vh] flex flex-col justify-center">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-indigo-500/20 blur-[100px] rounded-full"></div>
                 <div className="relative z-10 max-w-4xl mx-auto">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">

@@ -26,7 +26,14 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Column */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold text-white tracking-tight">Ecomm Elevate Solutions</h2>
+            <div className="flex items-center space-x-3">
+              <img
+                src="/images/logo/logo-circle.svg"
+                alt="Ecomm Elevate Solutions Logo"
+                className="h-16 w-16 object-contain"
+              />
+              <h2 className="text-2xl font-bold text-white tracking-tight">Ecomm Elevate Solutions</h2>
+            </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Ground Floor, 1C, Jama Masjid Lane, Takiya ward Lane, Opp Jama Masjid, Kurla West, Mumbai, Mumbai Suburban, Maharashtra, 400070
             </p>
@@ -72,7 +79,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm text-muted-foreground">
               <li className="flex items-start">
                 <span className="font-medium text-foreground mr-2">Phone:</span>
-                +91 80072 08742
+                +91 88284 77469
               </li>
               <li className="flex items-start">
                 <span className="font-medium text-foreground mr-2">Email:</span>

@@ -220,7 +220,7 @@ const Services: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/50 min-h-[40vh] flex flex-col justify-center relative overflow-hidden text-center">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/15 min-h-[40vh] flex flex-col justify-center relative overflow-hidden text-center">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-purple-500/20 blur-[120px] rounded-full"></div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">

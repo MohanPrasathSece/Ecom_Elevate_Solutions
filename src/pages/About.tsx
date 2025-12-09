@@ -83,7 +83,7 @@ const About: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Banner */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 min-h-[40vh] flex flex-col justify-center items-center text-center bg-black/50 relative overflow-hidden">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 min-h-[40vh] flex flex-col justify-center items-center text-center bg-black/15 relative overflow-hidden">
         {/* Decorative background elements matching Home */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-blue-500/20 blur-[100px] rounded-full"></div>
         <div className="relative z-10 max-w-4xl mx-auto">

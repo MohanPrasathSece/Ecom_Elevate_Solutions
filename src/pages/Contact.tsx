@@ -109,7 +109,7 @@ const Contact: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/50 text-center min-h-[40vh] flex flex-col justify-center relative overflow-hidden">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/15 text-center min-h-[40vh] flex flex-col justify-center relative overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-500/20 blur-[120px] rounded-full"></div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <p className="text-sm text-blue-300 uppercase tracking-widest mb-4 font-semibold">Get in Touch</p>
@@ -136,7 +136,7 @@ const Contact: React.FC = () => {
                     <Phone className="w-5 h-5 text-blue-400 mt-1 mr-3" />
                     <div>
                       <p className="text-sm text-gray-400">Phone</p>
-                      <p className="text-white font-medium">+91 80072 08742</p>
+                      <p className="text-white font-medium">+91 88284 77469</p>
                     </div>
                   </div>
 

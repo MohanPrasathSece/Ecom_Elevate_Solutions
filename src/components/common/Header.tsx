@@ -33,9 +33,9 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16 md:h-20">
           <Link to="/" className="flex items-center group z-50 relative" style={{ fontFamily: 'Poppins, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>
             <img
-              src="/images/logo/Gemini_Generated_Image_sss5a4sss5a4sss5-removebg-preview.png"
+              src="/images/logo/ecommerce-logo.svg"
               alt="Ecomm Elevate Solutions Logo"
-              className="h-16 sm:h-18 w-auto object-contain"
+              className="h-12 sm:h-14 w-auto object-contain"
             />
           </Link>
 
