@@ -234,10 +234,6 @@ const Services: React.FC = () => {
               <div className="text-3xl font-bold text-white">3x</div>
               <div className="text-sm text-blue-200">Average ROAS</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white">15+</div>
-              <div className="text-sm text-blue-200">Happy Clients</div>
-            </div>
           </div>
         </div>
       </section>
