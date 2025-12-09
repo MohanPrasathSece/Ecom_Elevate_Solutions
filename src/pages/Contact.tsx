@@ -304,7 +304,6 @@ const Contact: React.FC = () => {
               <h2 className="text-2xl font-bold text-white mb-8">Why Choose Ecom elevate solution?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {[
-                  { title: "Proven Track Record", desc: "15 successful clients with an average 3x ROAS uplift" },
                   { title: "Expert Team", desc: "Certified Amazon specialists with 9+ years of experience" },
                   { title: "Transparent Pricing", desc: "No hidden fees, clear communication, and detailed reporting" },
                   { title: "End-to-End Support", desc: "Complete Amazon management from listings to advertising" }
