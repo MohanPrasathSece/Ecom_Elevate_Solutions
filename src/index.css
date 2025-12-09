@@ -1,0 +1,186 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
+All colors MUST be HSL.
+Ecom elevate solution Premium Design System - Space Theme with Glassmorphism
+*/
+
+@layer base {
+  :root {
+    --radius: 1rem;
+
+    /* Base Colors - Darker, richer navy background */
+    --background: 222 75% 4%;
+    --foreground: 0 0% 100%;
+    /* Pure White */
+
+    /* Primary - Bright Electric Blue/Cyan for high visibility */
+    --primary: 190 90% 50%;
+    /* Much brighter cyan-blue */
+    --primary-foreground: 222 75% 4%;
+    /* Dark text on bright primary */
+    --primary-glow: 190 100% 60%;
+
+    /* Accent - Pure White for highlights */
+    --accent: 0 0% 100%;
+    --accent-foreground: 222 75% 4%;
+
+    /* Secondary - Lighter panels with more contrast */
+    --secondary: 222 55% 12%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted - Better visibility */
+    --muted: 223 35% 20%;
+    --muted-foreground: 210 20% 90%;
+    /* Ultra Bright Grey */
+
+    /* Card - Enhanced glass effect */
+    --card: 222 45% 14%;
+    --card-foreground: 0 0% 100%;
+
+    /* Popover */
+    --popover: 222 55% 12%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Border & Input - More visible */
+    --border: 222 35% 28%;
+    --input: 222 35% 28%;
+    --ring: 190 90% 50%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Gradients - Much darker CTA sections */
+    --gradient-primary: linear-gradient(135deg, hsl(222 80% 3%), hsl(223 90% 25%), hsl(237 85% 35%));
+    --gradient-accent: linear-gradient(135deg, hsl(190 90% 50%), hsl(0 0% 100%));
+    --gradient-glass: linear-gradient(135deg, rgba(10, 19, 43, 0.4), rgba(6, 182, 212, 0.15));
+    --gradient-hero: linear-gradient(180deg, hsl(222 75% 4%), hsl(223 70% 15%));
+
+    /* Shadows - Stronger, more dramatic */
+    --shadow-card: 0 10px 40px rgba(0, 0, 0, 0.5);
+    --shadow-hover: 0 20px 60px rgba(6, 182, 212, 0.4), 0 8px 20px rgba(0, 0, 0, 0.6);
+    --shadow-glow: 0 0 50px rgba(6, 182, 212, 0.6), 0 0 100px rgba(6, 182, 212, 0.3);
+    --shadow-glow-purple: 0 0 50px rgba(255, 255, 255, 0.6), 0 0 100px rgba(255, 255, 255, 0.3);
+    --shadow-button: 0 0 25px rgba(6, 182, 212, 0.5);
+
+    /* Glass Effect Variables - More transparent */
+    --glass-bg: rgba(255, 255, 255, 0.02);
+    --glass-border: rgba(255, 255, 255, 0.12);
+
+    /* Animation Timing */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 248 60% 4%;
+    --foreground: 0 0% 100%;
+
+    --primary: 190 90% 50%;
+    --primary-foreground: 222 75% 4%;
+    --primary-glow: 190 100% 60%;
+
+    --accent: 0 0% 100%;
+    --accent-foreground: 222 75% 4%;
+
+    --secondary: 248 55% 13%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 248 38% 18%;
+    --muted-foreground: 210 20% 90%;
+
+    --card: 248 55% 11%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 248 55% 11%;
+    --popover-foreground: 0 0% 100%;
+
+    --border: 248 40% 30%;
+    --input: 248 40% 30%;
+    --ring: 190 90% 50%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(248 65% 3%), hsl(223 90% 28%), hsl(237 85% 38%));
+    --gradient-accent: linear-gradient(135deg, hsl(190 90% 50%), hsl(0 0% 100%));
+    --gradient-glass: linear-gradient(135deg, rgba(10, 10, 26, 0.6), rgba(6, 182, 212, 0.2));
+    --gradient-hero: linear-gradient(180deg, hsl(248 60% 4%), hsl(223 70% 16%));
+
+    --shadow-card: 0 10px 40px rgba(0, 0, 0, 0.6);
+    --shadow-hover: 0 20px 60px rgba(6, 182, 212, 0.5), 0 8px 20px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 50px rgba(6, 182, 212, 0.7), 0 0 100px rgba(6, 182, 212, 0.4);
+    --shadow-glow-purple: 0 0 50px rgba(255, 255, 255, 0.7), 0 0 100px rgba(255, 255, 255, 0.4);
+    --shadow-button: 0 0 25px rgba(6, 182, 212, 0.6);
+
+    --glass-bg: rgba(255, 255, 255, 0.02);
+    --glass-border: rgba(255, 255, 255, 0.12);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.75;
+    /* Simplified background: Subtle dark depth at bottom only */
+    background-color: hsl(222, 40%, 15%);
+    background-image:
+      radial-gradient(circle at 50% 100%, rgba(0, 0, 0, 0.6) 0%, transparent 50%),
+      /* Single dark patch at bottom */
+      var(--gradient-primary);
+    background-attachment: fixed;
+    background-blend-mode: overlay, normal;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+  }
+
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .shadow-glow-purple {
+    box-shadow: var(--shadow-glow-purple);
+  }
+
+  .shadow-button {
+    box-shadow: var(--shadow-button);
+  }
+
+  .button-glow {
+    box-shadow: 0 0 20px currentColor;
+    transition: all 0.3s ease;
+  }
+
+  .button-glow:hover {
+    box-shadow: 0 0 30px currentColor, 0 0 60px currentColor;
+    transform: translateY(-2px);
+  }
+}
