@@ -13,10 +13,9 @@ import {
 } from "lucide-react";
 
 const Portfolio: React.FC = () => {
-    const clientCategories = [
-        "Fashion & Apparel", "Electronics", "Home & Kitchen", "Beauty & Wellness",
-        "Food & Beverages", "Sports & Fitness", "Books & Media", "Toys & Games",
-        "Automotive", "Healthcare", "Pet Supplies", "Office Products"
+    const brands = [
+        "Witblox", "Lumo Brilliant Toys", "AKAI", "Korleone", "Filgap", "Prakrta", 
+        "Bamboo Mattres", "Baujee Balancee", "Esmile"
     ];
 
     const growthVelocity = [
@@ -76,17 +75,17 @@ const Portfolio: React.FC = () => {
                 </div>
             </section>
 
-            {/* Client Categories */}
+            {/* Our Brands */}
             <section className="py-20 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-foreground mb-4">Client Categories We Serve</h2>
-                        <p className="text-muted-foreground">Partnering with diverse businesses across multiple industries</p>
+                        <h2 className="text-3xl font-bold text-foreground mb-4">Our Partner Brands</h2>
+                        <p className="text-muted-foreground">Trusted by leading brands across multiple industries</p>
                     </div>
                     <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
-                        {clientCategories.map((category, i) => (
+                        {brands.map((brand, i) => (
                             <div key={i} className="px-6 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium hover:bg-white/10 transition-colors cursor-default">
-                                {category}
+                                {brand}
                             </div>
                         ))}
                     </div>

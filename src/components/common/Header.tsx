@@ -33,7 +33,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16 md:h-20">
           <Link to="/" className="flex items-center group z-50 relative" style={{ fontFamily: 'Poppins, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>
             <img
-              src="/images/logo/ecommerce-logo.svg"
+              src="/mainlogo.png"
               alt="Ecomm Elevate Solutions Logo"
               className="h-12 sm:h-14 w-auto object-contain"
             />

@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img
-                src="/images/logo/logo-circle.svg"
+                src="/mainlogo.png"
                 alt="Ecomm Elevate Solutions Logo"
                 className="h-16 w-16 object-contain"
               />
