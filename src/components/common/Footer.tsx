@@ -30,9 +30,8 @@ const Footer: React.FC = () => {
               <img
                 src="/mainlogo.png"
                 alt="Ecomm Elevate Solutions Logo"
-                className="h-16 w-16 object-contain"
+                className="h-40 w-40 object-contain"
               />
-              <h2 className="text-2xl font-bold text-white tracking-tight">Ecomm Elevate Solutions</h2>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Ground Floor, 1C, Jama Masjid Lane, Takiya ward Lane, Opp Jama Masjid, Kurla West, Mumbai, Mumbai Suburban, Maharashtra, 400070

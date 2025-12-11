@@ -35,7 +35,7 @@ const Header: React.FC = () => {
             <img
               src="/mainlogo.png"
               alt="Ecomm Elevate Solutions Logo"
-              className="h-12 sm:h-14 w-auto object-contain"
+              className="h-20 sm:h-24 w-auto object-contain"
             />
           </Link>
 
