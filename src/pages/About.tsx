@@ -31,7 +31,7 @@ const About: React.FC = () => {
   const achievements = [
     { label: "Clients", value: "15+" },
     { label: "ROAS", value: "2x" },
-    { label: "Years Experience", value: "5+" },
+    { label: "Years Experience", value: "10+" },
     { label: "Client Satisfaction", value: "98%" }
   ];
 
